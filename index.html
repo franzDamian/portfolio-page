@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Franz Schulze | Full-Stack Software-Entwickler</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		/>
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="nav-content">
+				<a href="#" class="logo">FS</a>
+				<ul class="nav-links">
+					<li><a href="#about">Über mich</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#experience">Erfahrung</a></li>
+					<li><a href="#education">Ausbildung</a></li>
+					<li><a href="#contact">Kontakt</a></li>
+				</ul>
+				<button class="menu-toggle" aria-label="Menü öffnen">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+			</div>
+		</nav>
+
+		<header class="hero">
+			<div class="hero-content">
+				<div class="hero-text">
+					<p class="greeting">Hallo, ich bin</p>
+					<h1>Franz Schulze</h1>
+					<p class="subtitle">Full-Stack Software-Entwickler</p>
+					<div class="tech-tags">
+						<span>PHP / Symfony</span>
+						<span>C# / .NET</span>
+						<span>Flutter</span>
+					</div>
+					<p class="location">
+						<i class="fas fa-map-marker-alt"></i> Augsburg, Deutschland
+					</p>
+					<div class="hero-buttons">
+						<a href="#contact" class="btn btn-primary">Kontakt aufnehmen</a>
+						<a href="#skills" class="btn btn-secondary">Meine Skills</a>
+					</div>
+				</div>
+				<div class="hero-visual">
+					<div class="code-block">
+						<div class="code-header">
+							<span class="dot red"></span>
+							<span class="dot yellow"></span>
+							<span class="dot green"></span>
+						</div>
+						<pre><code><span class="keyword">class</span> <span class="class-name">Developer</span> {
+    <span class="keyword">public</span> $name = <span class="string">"Franz Schulze"</span>;
+    <span class="keyword">public</span> $role = <span class="string">"Full-Stack Engineer"</span>;
+    <span class="keyword">public</span> $stack = [
+        <span class="string">"PHP/Symfony"</span>,
+        <span class="string">"C#/.NET"</span>,
+        <span class="string">"Flutter"</span>,
+        <span class="string">"Vue.js/React"</span>
+    ];
+    
+    <span class="keyword">public</span> <span class="function">build</span>() {
+        <span class="keyword">return</span> $this->create(
+            <span class="string">"innovative solutions"</span>
+        );
+    }
+}</code></pre>
+					</div>
+				</div>
+			</div>
+			<div class="scroll-indicator">
+				<span>Scrollen</span>
+				<div class="mouse">
+					<div class="wheel"></div>
+				</div>
+			</div>
+		</header>
+
+		<section id="about" class="section">
+			<div class="container">
+				<h2 class="section-title">Professionelles Profil</h2>
+				<div class="profile-card">
+					<p>
+						Erfahrener Full-Stack-Entwickler mit über 4 Jahren Praxiserfahrung
+						in der Entwicklung skalierbarer Webanwendungen und Windows-Software.
+						Spezialisiert auf PHP/Symfony und C#/.NET mit starker Expertise in
+						API-Design, Microservices und DevOps-Praktiken.
+					</p>
+					<p>
+						Nachweisbare Erfolge in der Einführung automatisierter Testverfahren
+						(Playwright, xUnit) und der Optimierung von Legacy-Systemen. Aktuell
+						vertiefe ich meine Kompetenzen in Cross-Plattform-Mobilentwicklung
+						(Flutter) und Künstlicher Intelligenz.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="skills" class="section">
+			<div class="container">
+				<h2 class="section-title">Technische Kompetenzen</h2>
+				<div class="skills-grid">
+					<div class="skill-category">
+						<h3><i class="fas fa-server"></i> Backend</h3>
+						<div class="skill-tags">
+							<span>PHP (8.x)</span>
+							<span>Symfony (5.x/6.x)</span>
+							<span>C# / .NET Core</span>
+							<span>ASP.NET</span>
+							<span>Python</span>
+							<span>API Platform</span>
+							<span>RESTful APIs</span>
+							<span>GraphQL</span>
+							<span>MySQL / MariaDB</span>
+							<span>PostgreSQL</span>
+							<span>MongoDB</span>
+						</div>
+					</div>
+					<div class="skill-category">
+						<h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+						<div class="skill-tags">
+							<span>JavaScript</span>
+							<span>TypeScript</span>
+							<span>Vue.js</span>
+							<span>React</span>
+							<span>Nuxt.js</span>
+							<span>HTML5 / CSS3</span>
+							<span>SASS</span>
+							<span>Bootstrap</span>
+						</div>
+					</div>
+					<div class="skill-category">
+						<h3><i class="fas fa-mobile-alt"></i> Mobile & KI</h3>
+						<div class="skill-tags">
+							<span>Flutter</span>
+							<span>Dart</span>
+							<span>TensorFlow</span>
+							<span>Machine Learning</span>
+						</div>
+					</div>
+					<div class="skill-category">
+						<h3><i class="fas fa-tools"></i> DevOps & Tools</h3>
+						<div class="skill-tags">
+							<span>Docker</span>
+							<span>Kubernetes</span>
+							<span>Git</span>
+							<span>GitHub Actions</span>
+							<span>GitLab CI/CD</span>
+							<span>Jenkins</span>
+							<span>Linux</span>
+							<span>AWS/Azure</span>
+						</div>
+					</div>
+					<div class="skill-category">
+						<h3><i class="fas fa-vial"></i> Testing</h3>
+						<div class="skill-tags">
+							<span>PHPUnit</span>
+							<span>xUnit</span>
+							<span>Playwright</span>
+							<span>Selenium</span>
+							<span>TDD/BDD</span>
+						</div>
+					</div>
+					<div class="skill-category">
+						<h3><i class="fas fa-users"></i> Methoden</h3>
+						<div class="skill-tags">
+							<span>Agile/Scrum</span>
+							<span>Kanban</span>
+							<span>Jira</span>
+							<span>Confluence</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="current-learning" class="section accent-section">
+			<div class="container">
+				<h2 class="section-title">Aktuelle Weiterbildung</h2>
+				<div class="learning-card">
+					<div class="learning-badge">Seit Februar 2026</div>
+					<h3>Mobile Development & Künstliche Intelligenz</h3>
+					<div class="learning-items">
+						<div class="learning-item">
+							<i class="fab fa-flutter"></i>
+							<div>
+								<h4>Flutter & Dart</h4>
+								<p>
+									Vertiefte Ausbildung in der Cross-Plattform-Entwicklung für
+									iOS und Android
+								</p>
+							</div>
+						</div>
+						<div class="learning-item">
+							<i class="fas fa-brain"></i>
+							<div>
+								<h4>KI & Machine Learning</h4>
+								<p>
+									Anwendung von KI-Modellen in mobilen Anwendungen, Grundlagen
+									von TensorFlow
+								</p>
+							</div>
+						</div>
+					</div>
+					<p class="learning-goal">
+						Ziel: Integration intelligenter Funktionen in bestehende Web- und
+						Mobile-Architekturen
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="experience" class="section">
+			<div class="container">
+				<h2 class="section-title">Berufliche Erfahrung</h2>
+				<div class="timeline">
+					<div class="timeline-item">
+						<div class="timeline-marker"></div>
+						<div class="timeline-content">
+							<span class="date">05/2024 – 06/2025</span>
+							<h3>Full-Stack Software-Entwickler</h3>
+							<p class="company">Sensetence UG | Remote & Augsburg</p>
+							<p class="role-focus">
+								Fokus: Entwicklung komplexer Webanwendungen, API-Integration und
+								Testautomatisierung
+							</p>
+							<ul class="projects">
+								<li>
+									<strong>Energieverbrauchs-Digitalisierung</strong> (09/2024 –
+									02/2025)
+									<p>
+										Koordinationsplattform für Montage und Verwaltung von
+										Energiemessgeräten im Scrum-Team
+									</p>
+									<span class="tech"
+										>PHP 8.2, Symfony 5.4, API Platform, MySQL, Docker,
+										Redis</span
+									>
+								</li>
+								<li>
+									<strong>Kundeninformationssystem</strong> (05/2024 – 09/2024)
+									<p>
+										Neuentwicklung eines Backend-Systems für Authentifizierung
+										und Autorisierung
+									</p>
+									<span class="tech">Vue.js/Nuxt, CI/CD-Pipelines</span>
+								</li>
+								<li>
+									<strong>Investment-Banking Tools</strong> (05/2024 – 06/2024)
+									<p>
+										Interne Tools zur Datenaggregation aus externen APIs und
+										Excel-Importen
+									</p>
+									<span class="tech">Symfony 6.4, Vue.js</span>
+								</li>
+								<li>
+									<strong>Testautomatisierung</strong> (05/2025 – 06/2025)
+									<p>End-to-End-Tests für mobile Anwendungen</p>
+									<span class="tech">C#, Playwright, xUnit, GitLab CI/CD</span>
+								</li>
+								<li>
+									<strong>Low-Code/No-Code Analyse</strong> (02/2025 – 06/2025)
+									<p>Evaluation und Dokumentation von Low-Code-Plattformen</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="timeline-item">
+						<div class="timeline-marker"></div>
+						<div class="timeline-content">
+							<span class="date">01/2021 – 10/2023</span>
+							<h3>Software-Entwickler C#</h3>
+							<p class="company">baramundi software GmbH, Augsburg</p>
+							<ul class="projects">
+								<li>
+									Entwicklung eines Proof-of-Concept-Prototyps zur
+									Datenerfassung unter Windows
+								</li>
+								<li>
+									UX-Optimierung der "baramundi Management Suite", Steigerung
+									der Nutzerzufriedenheit
+								</li>
+								<li>
+									Einführung automatisierter Regressionstests, signifikante
+									Reduzierung der Fehlerquote
+								</li>
+								<li>
+									Zusammenarbeit mit C++ und Java-Modulen im
+									Endpoint-Management-Umfeld
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="timeline-item">
+						<div class="timeline-marker"></div>
+						<div class="timeline-content">
+							<span class="date">02/2024 – 04/2024</span>
+							<h3>Werkstudent Programmier-Tutor</h3>
+							<p class="company">Complori, Remote</p>
+							<p>
+								Online-Unterricht in Python und JavaScript sowie Betreuung von
+								Projekten im Bereich Minecraft Education
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="education" class="section">
+			<div class="container">
+				<h2 class="section-title">Ausbildung</h2>
+				<div class="education-grid">
+					<div class="education-card">
+						<div class="edu-icon"><i class="fas fa-university"></i></div>
+						<h3>Master of Science (abgebrochen)</h3>
+						<p class="edu-school">Universität Augsburg</p>
+						<span class="edu-date">2023</span>
+						<p class="edu-focus">
+							Schwerpunkte: Verteilte Systeme, Echtzeitsysteme, Deep Learning
+						</p>
+					</div>
+					<div class="education-card">
+						<div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+						<h3>Bachelor of Science</h3>
+						<p class="edu-school">Universität Augsburg</p>
+						<span class="edu-date">2016 – 2021</span>
+						<p class="edu-focus">Angewandte Informatik</p>
+					</div>
+					<div class="education-card">
+						<div class="edu-icon"><i class="fas fa-school"></i></div>
+						<h3>Abitur</h3>
+						<p class="edu-school">Rudolf-Steiner-Schule Coburg</p>
+						<span class="edu-date">2013 – 2016</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="languages" class="section">
+			<div class="container">
+				<h2 class="section-title">Sprachkenntnisse</h2>
+				<div class="languages-grid">
+					<div class="language-card">
+						<span class="lang-flag">🇩🇪</span>
+						<h3>Deutsch</h3>
+						<p>Muttersprache</p>
+					</div>
+					<div class="language-card">
+						<span class="lang-flag">🇬🇧</span>
+						<h3>Englisch</h3>
+						<p>Fließend (C1)</p>
+						<span class="lang-note"
+							>Technische Dokumentation & internationale Kommunikation</span
+						>
+					</div>
+					<div class="language-card">
+						<span class="lang-flag">🇷🇺</span>
+						<h3>Russisch</h3>
+						<p>Grundkenntnisse</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="section contact-section">
+			<div class="container">
+				<h2 class="section-title">Kontakt</h2>
+				<div class="contact-content">
+					<p class="contact-intro">
+						Interessiert an einer Zusammenarbeit? Lassen Sie uns ins Gespräch
+						kommen!
+					</p>
+					<div class="contact-links">
+						<a href="mailto:fda.schulze@gmail.com" class="contact-link">
+							<i class="fas fa-envelope"></i>
+							<span>fda.schulze@gmail.com</span>
+						</a>
+						<a
+							href="https://github.com/franzDamian"
+							target="_blank"
+							class="contact-link"
+						>
+							<i class="fab fa-github"></i>
+							<span>GitHub</span>
+						</a>
+						<a
+							href="https://www.linkedin.com/in/franz-schulze-609927163/"
+							target="_blank"
+							class="contact-link"
+						>
+							<i class="fab fa-linkedin"></i>
+							<span>LinkedIn</span>
+						</a>
+					</div>
+					<div class="availability-badge">
+						<span class="status-dot"></span>
+						<span>Bereit für Remote/Hybrid</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<p>&copy; 2026 Franz Schulze. Alle Rechte vorbehalten.</p>
+				<p class="footer-note">
+					Erstellt mit <i class="fas fa-heart"></i> und viel Kaffee ☕
+				</p>
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
