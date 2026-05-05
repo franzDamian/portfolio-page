@@ -869,6 +869,18 @@ ul {
 	.hero h1 {
 		font-size: 3rem;
 	}
+
+	.section {
+		padding: 4rem 0;
+	}
+
+	.section-title {
+		font-size: 1.75rem;
+	}
+
+	.skills-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
 @media (max-width: 768px) {
@@ -904,24 +916,523 @@ ul {
 
 	.code-block {
 		max-width: 100%;
-	}
-}
-
-@media (max-width: 480px) {
-	.hero h1 {
-		font-size: 2rem;
+		padding: 1rem;
 	}
 
-	.subtitle {
-		font-size: 1.1rem;
+	.code-block code {
+		font-size: 0.75rem;
+		line-height: 1.6;
+	}
+
+	.tech-tags {
+		gap: 0.5rem;
+		margin-bottom: 1rem;
+	}
+
+	.tech-tags span {
+		padding: 0.35rem 0.75rem;
+		font-size: 0.75rem;
+	}
+
+	.location {
+		margin-bottom: 1.5rem;
+		font-size: 0.9rem;
 	}
 
 	.hero-buttons {
 		flex-direction: column;
+		gap: 0.75rem;
+		width: 100%;
 	}
 
 	.btn {
+		padding: 0.75rem 1.5rem;
+		font-size: 0.9rem;
 		width: 100%;
-		text-align: center;
+	}
+
+	.section {
+		padding: 3rem 0;
+	}
+
+	.section-title {
+		font-size: 1.5rem;
+		margin-bottom: 2rem;
+	}
+
+	.profile-card {
+		padding: 1.5rem;
+		max-width: 100%;
+	}
+
+	.profile-card p {
+		font-size: 0.9rem;
+		margin-bottom: 0.75rem;
+	}
+
+	.skills-grid {
+		grid-template-columns: 1fr;
+		gap: 1rem;
+	}
+
+	.skill-category {
+		padding: 1.25rem;
+	}
+
+	.skill-category h3 {
+		font-size: 1rem;
+		margin-bottom: 0.75rem;
+	}
+
+	.skill-tags span {
+		font-size: 0.7rem;
+		padding: 0.3rem 0.6rem;
+	}
+
+	.learning-card {
+		padding: 1.5rem;
+		max-width: 100%;
+	}
+
+	.learning-card h3 {
+		font-size: 1.25rem;
+		margin-bottom: 1rem;
+	}
+
+	.learning-item {
+		gap: 0.75rem;
+	}
+
+	.learning-item i {
+		font-size: 1.25rem;
+	}
+
+	.learning-item h4 {
+		font-size: 0.95rem;
+	}
+
+	.learning-item p {
+		font-size: 0.85rem;
+	}
+
+	.timeline {
+		padding-left: 1.5rem;
+	}
+
+	.timeline-marker {
+		left: -2rem;
+	}
+
+	.timeline-content {
+		padding: 1.25rem;
+	}
+
+	.timeline-content h3 {
+		font-size: 1.1rem;
+	}
+
+	.timeline-content .date {
+		font-size: 0.75rem;
+	}
+
+	.education-grid {
+		grid-template-columns: 1fr;
+		gap: 1rem;
+	}
+
+	.education-card {
+		padding: 1.25rem;
+	}
+
+	.education-card h3 {
+		font-size: 1rem;
+	}
+
+	.edu-icon {
+		width: 50px;
+		height: 50px;
+		margin-bottom: 0.75rem;
+	}
+
+	.edu-icon i {
+		font-size: 1.25rem;
+	}
+
+	.languages-grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1rem;
+	}
+
+	.language-card {
+		padding: 1.25rem;
+	}
+
+	.lang-flag {
+		font-size: 2rem;
+		margin-bottom: 0.5rem;
+	}
+
+	.language-card h3 {
+		font-size: 0.95rem;
+	}
+
+	.language-card p {
+		font-size: 0.85rem;
+	}
+
+	.contact-intro {
+		font-size: 1.1rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.contact-link {
+		padding: 0.75rem 1rem;
+		gap: 0.75rem;
+		font-size: 0.9rem;
+	}
+
+	.contact-link i {
+		font-size: 1rem;
+	}
+
+	.scroll-indicator {
+		bottom: 1rem;
+		font-size: 0.7rem;
+	}
+
+	.mouse {
+		width: 20px;
+		height: 32px;
+	}
+}
+
+@media (max-width: 480px) {
+	.container {
+		padding: 0 1rem;
+	}
+
+	.nav-content {
+		padding: 0.75rem 1rem;
+	}
+
+	.logo {
+		font-size: 1.25rem;
+	}
+
+	.hero {
+		padding: 4.5rem 1rem 1.5rem;
+		min-height: auto;
+	}
+
+	.hero::before {
+		width: 400px;
+		height: 400px;
+		top: -40%;
+		right: -40%;
+		opacity: 0.5;
+	}
+
+	.hero h1 {
+		font-size: 1.75rem;
+		margin-bottom: 0.5rem;
+	}
+
+	.subtitle {
+		font-size: 1rem;
+		margin-bottom: 0.75rem;
+	}
+
+	.greeting {
+		font-size: 0.8rem;
+	}
+
+	.tech-tags {
+		gap: 0.4rem;
+		margin-bottom: 0.75rem;
+	}
+
+	.tech-tags span {
+		padding: 0.3rem 0.6rem;
+		font-size: 0.7rem;
+	}
+
+	.location {
+		margin-bottom: 1rem;
+		font-size: 0.8rem;
+	}
+
+	.location i {
+		font-size: 0.8rem;
+	}
+
+	.hero-buttons {
+		gap: 0.5rem;
+	}
+
+	.btn {
+		padding: 0.65rem 1.25rem;
+		font-size: 0.85rem;
+		border-radius: 6px;
+	}
+
+	.btn-primary:hover {
+		transform: none;
+	}
+
+	.section {
+		padding: 2rem 0;
+	}
+
+	.section-title {
+		font-size: 1.25rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.section-title::after {
+		width: 40px;
+	}
+
+	.profile-card {
+		padding: 1rem;
+	}
+
+	.profile-card p {
+		font-size: 0.85rem;
+		margin-bottom: 0.5rem;
+		line-height: 1.6;
+	}
+
+	.skills-grid {
+		gap: 0.75rem;
+	}
+
+	.skill-category {
+		padding: 1rem;
+	}
+
+	.skill-category h3 {
+		font-size: 0.9rem;
+		gap: 0.5rem;
+	}
+
+	.skill-category h3 i {
+		font-size: 1rem;
+	}
+
+	.skill-tags span {
+		font-size: 0.65rem;
+		padding: 0.25rem 0.5rem;
+	}
+
+	.learning-card {
+		padding: 1rem;
+	}
+
+	.learning-badge {
+		font-size: 0.7rem;
+		padding: 0.25rem 0.6rem;
+		margin-bottom: 0.75rem;
+	}
+
+	.learning-card h3 {
+		font-size: 1.1rem;
+		margin-bottom: 0.75rem;
+	}
+
+	.learning-items {
+		gap: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.learning-item {
+		gap: 0.5rem;
+	}
+
+	.learning-item i {
+		font-size: 1rem;
+	}
+
+	.learning-item h4 {
+		font-size: 0.9rem;
+	}
+
+	.learning-item p {
+		font-size: 0.8rem;
+	}
+
+	.learning-goal {
+		padding-top: 0.75rem;
+		font-size: 0.8rem;
+	}
+
+	.timeline {
+		padding-left: 1rem;
+	}
+
+	.timeline::before {
+		left: 0;
+	}
+
+	.timeline-marker {
+		left: -1.6rem;
+		width: 10px;
+		height: 10px;
+		border: 2px solid var(--bg-primary);
+	}
+
+	.timeline-content {
+		padding: 1rem;
+	}
+
+	.timeline-content .date {
+		font-size: 0.7rem;
+		padding: 0.2rem 0.5rem;
+	}
+
+	.timeline-content h3 {
+		font-size: 1rem;
+		margin-bottom: 0.25rem;
+	}
+
+	.timeline-content .company {
+		font-size: 0.85rem;
+	}
+
+	.timeline-content .role-focus {
+		font-size: 0.8rem;
+		margin-bottom: 0.75rem;
+	}
+
+	.projects li {
+		padding-left: 0.75rem;
+	}
+
+	.projects li strong {
+		font-size: 0.9rem;
+	}
+
+	.projects li p {
+		font-size: 0.8rem;
+	}
+
+	.projects li .tech {
+		font-size: 0.65rem;
+	}
+
+	.education-grid {
+		gap: 0.75rem;
+	}
+
+	.education-card {
+		padding: 1rem;
+	}
+
+	.education-card h3 {
+		font-size: 0.95rem;
+		margin-bottom: 0.25rem;
+	}
+
+	.edu-icon {
+		width: 40px;
+		height: 40px;
+		margin-bottom: 0.5rem;
+	}
+
+	.edu-icon i {
+		font-size: 1rem;
+	}
+
+	.education-card .edu-school {
+		font-size: 0.8rem;
+	}
+
+	.education-card .edu-date {
+		font-size: 0.75rem;
+	}
+
+	.education-card .edu-focus {
+		font-size: 0.75rem;
+	}
+
+	.languages-grid {
+		grid-template-columns: 1fr;
+		gap: 0.75rem;
+	}
+
+	.language-card {
+		padding: 1rem;
+	}
+
+	.lang-flag {
+		font-size: 1.75rem;
+		margin-bottom: 0.35rem;
+	}
+
+	.language-card h3 {
+		font-size: 0.9rem;
+		margin-bottom: 0.15rem;
+	}
+
+	.language-card p {
+		font-size: 0.8rem;
+	}
+
+	.lang-note {
+		font-size: 0.7rem;
+		margin-top: 0.35rem;
+	}
+
+	.contact-intro {
+		font-size: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.contact-links {
+		gap: 0.75rem;
+		margin-bottom: 1rem;
+	}
+
+	.contact-link {
+		padding: 0.65rem 0.75rem;
+		gap: 0.5rem;
+		font-size: 0.85rem;
+	}
+
+	.contact-link i {
+		font-size: 0.9rem;
+	}
+
+	.availability-badge {
+		padding: 0.5rem 1rem;
+		font-size: 0.8rem;
+	}
+
+	.status-dot {
+		width: 6px;
+		height: 6px;
+	}
+
+	.footer {
+		padding: 1.5rem 0;
+	}
+
+	.footer p {
+		font-size: 0.8rem;
+	}
+
+	.scroll-indicator {
+		bottom: 0.75rem;
+		gap: 0.25rem;
+	}
+
+	.mouse {
+		width: 16px;
+		height: 28px;
+	}
+
+	.wheel {
+		width: 3px;
+		height: 6px;
+		top: 6px;
 	}
 }
